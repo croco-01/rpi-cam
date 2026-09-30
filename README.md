@@ -29,3 +29,9 @@ sudo ./run.sh
 ## What to Expect During Installation
 
 * **Camera Test:** A preview window will appear to verify hardware functionality (requires a connected display).
+
+## If not get the Display reboot & after reboot run
+
+```bash
+rpicam-hello --qt-preview -t 0
+```
