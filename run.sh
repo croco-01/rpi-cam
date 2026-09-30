@@ -56,7 +56,7 @@ rpicam-hello --list-camera || true
 
 echo -e "\n=== Launching Camera Preview ==="
 echo "A window should appear. (Note: This requires a connected display)."
-rpicam-hello --qt-preview -t 0 || echo "Warning: Camera preview failed or no display attached."
+rpicam-hello --qt-preview || echo "Warning: Camera preview failed or no display attached."
 echo -e "===============================\n"
 
 echo "Configuration complete! If your Raspberry Pi does not detect the camera, please reboot to apply the settings."
